@@ -1,4 +1,4 @@
-window.onload = () => {
+window.addEventListener('load', () => {
   const paralax = document.querySelector('.paralax');
   if (paralax) {
     const back = document.querySelector('.paralax__back');
@@ -49,4 +49,4 @@ window.onload = () => {
       coordProcent.y = coords.y / paralaxDimantions.height * 100;
     });
   }
-}
+})

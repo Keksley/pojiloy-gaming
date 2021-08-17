@@ -8,11 +8,19 @@
   <title>Tenzo Hidden</title>
 </head>
 <body>
-  <!-- <div class="preloader">
+  <div class="preloader">
     <div class="preloader__spinner"></div>
-  </div> -->
+    <b>Немного подождите</b>
+  </div>
   <script>
-    // Тут будет прелоадер
+    window.addEventListener('load', () => {
+      const preloader = document.querySelector('.preloader')
+      const timeout = 400;
+      preloader.style.opacity = 0;
+      preloader.style.transition = timeout + 'ms';
+      preloader.style.pointerEvents = 'none';
+      setTimeout(() => {preloader.style.display = 'none'}, timeout)
+    })
   </script>
   <section class="home paralax">
     <div class="paralax__bg">
