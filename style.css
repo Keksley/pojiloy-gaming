@@ -6,6 +6,10 @@ body {
   background: rgb(102, 126, 189);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 button {
   font-family: 'Roboto', sans-serif;
 }
@@ -223,6 +227,7 @@ color: rgba(186, 247, 255, 0.8);
   font-weight: bold;
   text-align: center;
   color: rgba(237, 237, 237, 0.9);
+  text-transform: uppercase;
 }
 
 .advantages__icon {
@@ -265,4 +270,28 @@ color: rgba(186, 247, 255, 0.8);
 }
 .advantages__item:nth-child(4) .advantages__icon {
   background-image: url('./img/advantages/4.svg');
+}
+
+.author {
+  margin-bottom: 70px;
+}
+
+.author__container{
+  background-color: #F8FFDA;
+  color: rgba(19, 19, 19, 0.9);
+  padding: 40px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.author__title {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.author__bio {
+  font-size: 22px;
 }
