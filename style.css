@@ -259,6 +259,12 @@ button {
   background-color: #9CC5F5;
 }
 
+.advantages__item:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  transform: scale(1.01);
+  transition: 100ms;
+}
+
 .advantages__item:nth-child(2n) {
   background-color: #DFEEFF;
 }
