@@ -160,8 +160,7 @@ button {
 }
 
 .home__btn {
-  width: 330px;
-  height: 70px;
+  padding: 25px 70px;
   background: #DBE3FF;
   box-sizing: border-box;
   border-radius: 35px;
@@ -169,7 +168,7 @@ button {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
   color: rgba(19, 19, 19, 0.85);
@@ -183,18 +182,21 @@ button {
 
 .home__title {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 50px;
   text-align: center;
   text-transform: uppercase;
-  max-width: 570px;
+  max-width: 870px;
+  margin: 0;
 }
 
 .home__text {
-max-width: 570px;
-font-weight: normal;
-font-size: 24px;
-text-align: center;
-color: rgba(186, 247, 255, 0.8);
+  max-width: 870px;
+  font-weight: normal;
+  font-size: 32px;
+  text-align: center;
+  color: rgba(186, 247, 255, 0.8);
+  margin-top: 47px;
+  margin-bottom: 70px;
 }
 
 .home__backdrop {
@@ -248,10 +250,12 @@ color: rgba(186, 247, 255, 0.8);
 .advantages__text {
   margin-top: 10px;
   text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .advantages__item {
-  padding: 20px;
+  padding: 15px;
   background-color: #9CC5F5;
 }
 
@@ -294,4 +298,40 @@ color: rgba(186, 247, 255, 0.8);
 
 .author__bio {
   font-size: 22px;
+}
+
+.team__row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+.team__row:nth-child(2) {
+  grid-template-columns: 2fr 1fr;
+}
+
+.team__photo {
+  background-color: #9CC5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.team__photo img {
+  width: 200px;
+  height: 200px;
+}
+
+.team__bio {
+  background-color: #D5E8FF;
+  color: rgba(19, 19, 19, 0.9);
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.team__name {
+  font-size: 32px;
+  margin-bottom: 32px;
 }
