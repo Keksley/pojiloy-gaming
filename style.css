@@ -300,6 +300,10 @@ button {
   font-size: 22px;
 }
 
+.team {
+  margin-bottom: 120px;
+}
+
 .team__row {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -334,4 +338,24 @@ button {
 .team__name {
   font-size: 32px;
   margin-bottom: 32px;
+}
+
+.page-footer {
+  background-color: rgb(27, 42, 91);
+  padding: 40px 0;
+}
+
+.logo {
+  width: 240px;
+}
+
+.page-footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-footer__copyright {
+  color:#fff;
+  font-size: 22px;
 }
