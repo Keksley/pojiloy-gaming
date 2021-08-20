@@ -60,7 +60,7 @@ button {
   text-decoration: none;
 }
 
-.header__link.mPS2id-highlight-last {
+.header__link.mPS2id-highlight {
   text-decoration: underline;
 }
 .header__link:not(:first-child) {
