@@ -20,6 +20,8 @@ button {
   position: fixed;
   z-index: 5;
   background: rgb(102, 126, 189);
+  top: 0;
+  left: 0;
 }
 .header .btn {
   text-transform: uppercase;
@@ -66,7 +68,7 @@ button {
 }
 
 .paralax {
-  position: relative; 
+  position: relative;
 }
 
 .preloader {
@@ -208,6 +210,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 88px;
 }
 
 .home__btn {
