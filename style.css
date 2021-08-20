@@ -32,6 +32,8 @@ button {
   transition: 200ms;
 }
 
+
+
 .header .btn:hover {
   background-color: rgba(224, 224, 224, 0.603);
 }
@@ -54,6 +56,10 @@ button {
 .header__link {
   color: rgb(69, 69, 69);
   text-decoration: none;
+}
+
+.header__link.mPS2id-highlight-last {
+  text-decoration: underline;
 }
 .header__link:not(:first-child) {
   margin-left: 30px;
