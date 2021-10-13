@@ -242,7 +242,7 @@ button {
 }
 
 .hero__title {
-  font-weight: bold;
+  font-weight: 800;
   font-size: 50px;
   text-align: left;
   text-transform: uppercase;
@@ -289,9 +289,9 @@ button {
 .title {
   margin: 70px 0;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 800;
   text-align: center;
-  color: rgba(237, 237, 237, 0.9);
+  color: rgb(17, 24, 39);
   text-transform: uppercase;
 }
 
