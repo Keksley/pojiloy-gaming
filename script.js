@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
     const front = document.querySelector('.paralax__front');
     const coefficient = {
       front: 5,
-      back: 2,
+      back: 3.5,
     };
     const animationSpeed = 0.05;
     const position = {
