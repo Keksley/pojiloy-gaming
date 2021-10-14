@@ -296,8 +296,8 @@ button {
 }
 
 .advantages__icon {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
@@ -306,7 +306,7 @@ button {
 .advantages__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 30px;
+  column-gap: 12px;
   margin-bottom: 70px;
 }
 
@@ -315,34 +315,34 @@ button {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  cursor: default;
 }
 
 .advantages__item {
   padding: 15px;
-  background-color: #9CC5F5;
+  background: #fff;
+  color: rgb(17, 24, 39);
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  border-radius: 6px;
 }
 
 .advantages__item:hover {
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-  transform: scale(1.01);
+  transform: scale(1.05);
   transition: 100ms;
 }
 
-.advantages__item:nth-child(2n) {
-  background-color: #DFEEFF;
-}
 
 .advantages__item:nth-child(1) .advantages__icon {
-  background-image: url('./img/advantages/1.svg');
+  background-image: url('./img/advantages/1.png');
 }
 .advantages__item:nth-child(2) .advantages__icon {
-  background-image: url('./img/advantages/2.svg');
+  background-image: url('./img/advantages/2.png');
 }
 .advantages__item:nth-child(3) .advantages__icon {
-  background-image: url('./img/advantages/3.svg');
+  background-image: url('./img/advantages/3.png');
 }
 .advantages__item:nth-child(4) .advantages__icon {
-  background-image: url('./img/advantages/4.svg');
+  background-image: url('./img/advantages/4.png');
 }
 
 .author {
@@ -350,9 +350,9 @@ button {
 }
 
 .author__container{
-  background-color: #F8FFDA;
-  color: rgba(19, 19, 19, 0.9);
+  color: rgb(17, 24, 39);
   padding: 40px 150px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -384,8 +384,9 @@ button {
 }
 
 .team__photo {
-  background-color: #9CC5F5;
+  background-color: #ffffff;
   display: flex;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
   align-items: center;
   justify-content: center;
   padding: 100px;
@@ -397,11 +398,12 @@ button {
 }
 
 .team__bio {
-  background-color: #D5E8FF;
-  color: rgba(19, 19, 19, 0.9);
+  background-color: rgb(17, 24, 39);
+  color: rgba(255, 255, 255, 0.9);
   padding: 30px;
   text-align: center;
   font-size: 18px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
 }
 
 .team__name {
@@ -410,7 +412,7 @@ button {
 }
 
 .page-footer {
-  background-color: rgb(27, 42, 91);
+  background-color: rgb(17, 24, 39);
   padding: 40px 0;
 }
 
